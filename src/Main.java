@@ -29,7 +29,7 @@ public class Main {
         try {
             converter.getDecimalFromRoman(expression[0]);
             converter.getDecimalFromRoman(expression[2]);
-        } catch (Error ignore) {
+        } catch (IncorrectDigitsException ignore) {
             roman = false;
         }
 
